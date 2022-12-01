@@ -2,11 +2,6 @@
 from calculator_1 import add, sub, mul, div
 if __name__ == "__main__":
 
-    """
-    A simple function to print the result of addition,
-    multiplication, subtraction, and division of two numbers.
-    """
-
     a = 10
     b = 5
     print('{:d} + {:d} = {:d}'.format(a, b, add(a, b)))
