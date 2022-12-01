@@ -9,4 +9,4 @@ if __name__ == '__main__':
     if l_s > 1:
         for i in range(1, l_s):
             sum += int(s[i])
-            print(sum)
+    print(sum)
