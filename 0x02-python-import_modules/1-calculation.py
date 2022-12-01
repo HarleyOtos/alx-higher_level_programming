@@ -3,7 +3,8 @@ from calculator_1 import add, sub, mul, div
 if __name__ == "__main__":
 
     """
-    A simple function to print the result of addition, multiplication, subtraction, and division of two numbers.
+    A simple function to print the result of addition,
+    multiplication, subtraction, and division of two numbers.
     
     """
 
