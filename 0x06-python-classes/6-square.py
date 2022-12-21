@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-"""
-Square Class
+"""Square Class
 This module contains the `Square` class and its methods.
 """
 
@@ -8,7 +7,6 @@ This module contains the `Square` class and its methods.
 class Square:
     """
     Square Class
-
     This class represents a square with a size and a position.
     """
     def __init__(self, size=0, position=(0, 0)):
