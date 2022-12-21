@@ -7,6 +7,8 @@ A Square Class
 class Square:
     """Square class
     """
+
+
     def __init__(self, size):
         """__init__
         The __init__ method initializes the size value
