@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 """Square Class
-This class don't do anything for the moment
+An empty class that does nothing at the moment
 """
 
-
 class Square:
+    """Empty class"""
     pass
