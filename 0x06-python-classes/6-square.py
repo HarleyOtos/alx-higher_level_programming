@@ -5,7 +5,6 @@
 
 class Square:
     """Square Class
-    A Square Class with method
     """
     def __init__(self, size=0, position=(0, 0)):
         """__init__
