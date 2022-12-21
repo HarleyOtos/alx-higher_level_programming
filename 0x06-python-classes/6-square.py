@@ -13,7 +13,8 @@ class Square:
 
         Args:
             size (int, optional): The size of the square. Default is 0.
-            position (tuple, optional): The position of the square. Default is (0, 0).
+            position (tuple, optional): The position of the square.
+            Default is (0, 0).
 
         Raises:
             TypeError: If `size` type is not `int`.
@@ -38,7 +39,9 @@ class Square:
 
     @property
     def size(self):
-        """int: The size of the square."""
+        """int:
+            The size of the square.
+        """
         return self.__size
 
     @size.setter
@@ -156,7 +159,6 @@ class Square:
 
     def my_print(self):
         """Print the square using the `#` character.
-
         If the size is 0, print an empty line.
 
         """
