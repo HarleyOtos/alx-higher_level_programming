@@ -101,6 +101,7 @@ class Square:
         return self.__size ** 2
 
     def my_print(self):
+        """The print function"""
         if self.__size == 0:
             print()
             return None
