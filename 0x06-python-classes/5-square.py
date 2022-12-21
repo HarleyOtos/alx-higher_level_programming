@@ -58,8 +58,6 @@ class Square:
         return self.__size ** 2
 
     def my_print(self):
-        """Print the square area
-        """
         if self.__size == 0:
             print()
             return None
