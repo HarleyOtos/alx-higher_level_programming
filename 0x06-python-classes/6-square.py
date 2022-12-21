@@ -10,14 +10,14 @@ class Square:
     def __init__(self, size=0, position=(0, 0)):
         """__init__
         The __init__ method initializes the size value of the square.
-    
+
         Attributes:
             size (:obj:`int`, optional): The size of the square.
-    
+
         Raises:
             TypeError: If `size` type is not `int`.
             ValueError: If `size` is less than `0`.
-    
+
         """
         if type(size) is not int:
             raise TypeError('size must be an integer')
@@ -30,7 +30,7 @@ class Square:
             or self.__check_integers(position) is False \
             or self.__check_values(position) is False:
             raise TypeError('position must be a tuple of 2 positive integers')
-        
+
         self.size = size
         self.position = position
 
@@ -42,14 +42,14 @@ class Square:
     def size(self, size):
         """__init__
         The size setter method update the size value of the square.
-    
+
         Attributes:
             size (:obj:`int`): The new size of the square.
-    
+
         Raises:
             TypeError: If `size` type is not `int`.
             ValueError: If `size` is less than `0`.
-    
+
         """
         if type(size) is not int:
             raise TypeError('size must be an integer')
@@ -70,7 +70,7 @@ class Square:
             or self.__check_integers(position) is False \
             or self.__check_values(position) is False:
             raise TypeError('position must be a tuple of 2 positive integers')
-        
+
         self.__position = position
 
     def __check_tuple(self, position):
