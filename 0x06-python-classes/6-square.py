@@ -97,8 +97,7 @@ class Square:
         return False
 
     def area(self):
-        """Returns the square area
-        """
+        """Returns the square area"""
         return self.__size ** 2
 
     def my_print(self):
