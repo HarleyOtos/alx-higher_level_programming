@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """
 Square Class
-
 This module contains the `Square` class and its methods.
 """
 
