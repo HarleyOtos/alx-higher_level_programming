@@ -1,4 +1,9 @@
 #!/usr/bin/python3
+"""
+A module to return instance depending on the conditions fulfill
+"""
+
+
 def is_same_class(obj, a_class):
     """
     Checks if `obj` is an instance of the specified class
