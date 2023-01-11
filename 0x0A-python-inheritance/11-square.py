@@ -4,7 +4,6 @@ A class that inherits from the BaseGeometry
 """
 
 
-BaseGeometry = __import__('7-base_geometry').BaseGeometry
 Rectangle = __import__('9-rectangle').Rectangle
 
 
@@ -19,6 +18,10 @@ class Square(Rectangle):
         self.integer_validator(size, size)
         super().__init__(size, size)
         self.__size = size
+
+    def area(self):
+        """The calculation area"""
+        return self.__width * self.__height
 
     def __str__(self):
         """Print the information"""
