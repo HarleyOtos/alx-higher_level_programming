@@ -4,6 +4,7 @@ A class that inherits from the BaseGeometry
 """
 
 
+BaseGeometry = __import__('7-base_geometry').BaseGeometry
 Rectangle = __import__('9-rectangle').Rectangle
 
 
@@ -21,7 +22,7 @@ class Square(Rectangle):
 
     def area(self):
         """The calculation area"""
-        return super().area()
+        return self.__width * self.__height
 
     def __str__(self):
         """Print the information"""
