@@ -3,12 +3,11 @@
 A function to return an object 
 """
 
-import json
+from json import loads
 
 
 def from_json_string(my_str):
     """
     function that returns an Python data represented by a JSON
     """
-
-    return json.loads(my_str)
+    return loads(my_str)
