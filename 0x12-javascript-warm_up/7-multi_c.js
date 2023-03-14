@@ -8,4 +8,4 @@ if (limit) {
     }
 } else {
     console.log('Missing number of occurrences');
-};
+}
