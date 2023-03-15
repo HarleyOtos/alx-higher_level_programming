@@ -9,11 +9,11 @@ if (size) {
         for (; j < size; ++j) {
             process.stdout.write('X');
         }
-    
-    if (j === size) {
-        console.log('');
+
+        if (j === size) {
+            console.log('');
+        }
     }
-}
 } else {
     console.log('Missing size');
 }
