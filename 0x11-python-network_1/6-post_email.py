@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 """Sends a POST request to passed URL with an email as a parameter to
 the specified URL and displays the response body
 """
