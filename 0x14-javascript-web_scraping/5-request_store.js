@@ -9,9 +9,7 @@ const filePath = process.argv[3];
 request(url, function (error, response, body) {
   fs.writeFile(filePath, body, 'utf-8', function (err) {
     if (err) {
-        console.error(err);
-    } else {
-        console.log(`The file ${filePath} has been saved!`);
+        console.log(err);
     }
   });
 });
